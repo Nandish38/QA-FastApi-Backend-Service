@@ -28,4 +28,73 @@ The goal of this project is to showcase hands-on experience with API development
 
 ---
 
-## Project Structure
+## Installation Steps
+
+Clone the repository
+
+git clone https://github.com/Nandish38/QA-FastApi-Backend-Service
+Navigate into the project folder
+
+cd REPO_NAME
+
+Create virtual environment
+
+python -m venv venv
+
+Activate environment
+
+Windows:
+venv\Scripts\activate
+
+Mac/Linux:
+source venv/bin/activate
+
+Install dependencies
+
+pip install -r requirements.txt
+
+## Running the Application
+
+Start the FastAPI server using:
+
+uvicorn main:app --reload
+
+Server will start at:
+
+http://127.0.0.1:8000
+
+## API Documentation
+
+Swagger UI is available at:
+
+http://127.0.0.1:8000/docs
+
+This interface allows testing all API endpoints directly from the browser.
+
+## Available Endpoints
+
+POST /signup
+Creates a new user account
+
+POST /login
+Authenticates user and returns access token
+
+POST /upload
+Uploads files securely to server
+
+## Testing Scope (QA Perspective)
+
+This project supports testing scenarios such as:
+
+- API request validation
+- Response verification
+- Authentication workflow testing
+- Negative test scenarios
+- File upload validation
+- Status code verification
+
+- ## Author
+
+Nandish Shah
+
+Software Test Engineer | API Testing | Automation Testing | FastAPI Backend Project
