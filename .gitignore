@@ -7,3 +7,6 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Standalone Git repo (Selenium + pytest); push from selenium_amazon/ only
+/selenium_amazon/
